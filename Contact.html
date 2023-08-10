@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    
+    header {
+      background-color: #333;
+      color: white;
+      padding: 20px;
+    }
+    
+    nav {
+      display: flex;
+      justify-content: space-between;
+    }
+    
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+    
+    nav ul li {
+      display: inline;
+      margin-right: 10px;
+    }
+    
+    section {
+      padding: 20px;
+    }
+    
+    form {
+      max-width: 400px;
+      margin: 0 auto;
+    }
+    
+    label {
+      display: block;
+      margin-bottom: 10px;
+    }
+    
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+    }
+    
+    textarea {
+      height: 150px;
+    }
+    
+    input[type="submit"] {
+      background-color: #333;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="Homepage.html">Home</a></li>
+        <li><a href="About.html">About</a></li>
+        <li><a href="Servcies.html">Services</a></li>
+        <li><a href="Contact.html">Contact Us</a></li>
+        <li><a href="LogInPage.html">Log In</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <section>
+    <h1>Contact Us</h1>
+    <p>Thank you for choosing MIA as your choice of bank. </p>
+    <p>If you need any immediate assistance, </p>
+    <p>You may reach our customer service team at: +65 67349215 </p>
+    <form action="submit_contact.php" method="POST">
